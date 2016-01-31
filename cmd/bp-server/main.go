@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/dabfleming/foo/router"
+	"github.com/dabfleming/go-boilerplate/router"
 	"net/http"
 )
 
