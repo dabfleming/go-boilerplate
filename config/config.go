@@ -1,11 +1,12 @@
 package config
 
 import (
-	"github.com/BurntSushi/toml"
 	"io/ioutil"
 	"log"
 	"os"
 	"runtime/debug"
+
+	"github.com/BurntSushi/toml"
 )
 
 type Configuration struct {

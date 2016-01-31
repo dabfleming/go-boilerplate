@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/dabfleming/go-boilerplate/router"
 	"net/http"
+
+	"github.com/dabfleming/go-boilerplate/router"
 )
 
 func main() {

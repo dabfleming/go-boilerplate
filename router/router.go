@@ -1,10 +1,11 @@
 package router
 
 import (
+	"net/http"
+
 	"github.com/pressly/chi"
 	"github.com/pressly/chi/middleware"
 	"golang.org/x/net/context"
-	"net/http"
 )
 
 func Router() chi.Router {
