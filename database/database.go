@@ -2,7 +2,7 @@ package database
 
 import (
 	"fmt"
-	"github.com/dabfleming/foo/config"
+	"github.com/dabfleming/go-boilerplate/config"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
 	"log"

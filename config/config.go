@@ -23,7 +23,7 @@ func init() {
 	config = new(Configuration)
 
 	// TODO More logical lookup of file
-	fileLocation := os.Getenv("GOPATH") + "/src/github.com/dabfleming/foo/.config.toml"
+	fileLocation := os.Getenv("GOPATH") + "/src/github.com/dabfleming/go-boilerplate/.config.toml"
 
 	log.Print("Loading configuration from: ", fileLocation)
 
